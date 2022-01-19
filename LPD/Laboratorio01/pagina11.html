@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Pagina 11</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <h2>Combinar celdas</h2>
+    <h3>Combinar filas</h3>
+    <!-- El atributo rowspan="#" te permite combinar "n" cantidad de filas -->
+    <h4>Ejemplo 1</h4>
+    <table border="1" cellspacing="2" cellspacing="4">
+        <tr>
+            <td rowspan="2">C1 y C4</td>
+            <td>C2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>C5</td>
+            <td rowspan="2">C6 y C9</td>
+        </tr>
+            <tr>
+            <td>C7</td>
+            <td>C8</td>
+
+        
+        </tr>
+        </table>
+        <h3>Combinar Columnas</h3>
+        <table border="1" cellspacing="2" cellpadding="4">
+            
+        <tr>
+            <td colspan="2">C1 y C2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td colspan="2">C4 y C5 y C6</td>
+        </tr>
+        <tr>
+            <td>C7</td>
+            <td colspan="2">C8 y C9</td>
+        </tr>
+        </table>
+        <h3>combinar filas y columnas</h3>
+        <table border="1" cellspacing="10" cellpadding="20">
+            <tr>
+                <td rowspan="2">C1 y C6</td>
+                <td colspan="4">C2 y C3 y C4</td>
+                <td rowspan="2">C5 y C10</td>
+            </tr>
+
+            <tr>
+                <td>C7</td>
+                <td>C8</td>
+                <td>C9</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">C11 y C12</td>
+                <td rowspan="2">C13 y C18</td>
+                <td colspan="2">C14 y C15</td>
+                <td>C15</td>
+            </tr>
+
+            <tr>
+                <td>C16</td>
+                <td rowspan="2">C17 y C22</td>
+                <td>C19</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>C21</td>
+                <td colspan="6">C23 y C24 y C25</td>
+            </tr>
+        </table>
+</body>
+</html>
