@@ -1,0 +1,108 @@
+/* Agregamos un relleno general a toda la web */
+* {
+  padding: 10px;
+}
+hr {
+  background-color: blue;
+}
+body {
+  background-color: coral;
+}
+.contenedor {
+  background-color: white;
+}
+/* Agregamos color al parrafo */
+.parrafo1 {
+  color: yellowgreen;
+}
+/* Alineamos el parrafo a la derecha */
+.parrafo2 {
+  text-align: rigth;
+}
+/* Alineamos el parrafo al centro */
+.parrafo3 {
+  text-align: center;
+}
+/* Alineamos el parrafo a la izquierda */
+.parrafo4 {
+  text-align: left;
+}
+/* Alineamos el parrafo justificado */
+.parrafo5 {
+  text-align: justify;
+}
+/* Alineamos el parrafo en la parte supeiror */
+.parrafo6 {
+  text-align: align-top;
+  border: solid;
+  border-color: red;
+  padding: 30px;
+}
+/* Alineamos el parrafo al medio */
+.parrafo7 {
+  text-align: middle;
+  border: solid;
+  border-color: red;
+  padding: 30px;
+}
+/* Alineamos el parrafo en la parte inferior */
+.parrafo8 {
+  border: solid;
+  border-color: red;
+  padding: 30px;
+}
+/* Agregamos decoracion al texto rayado superior*/
+.parrafo9 {
+  text-decoration: overline;
+}
+/* Agregamos decoracion al texto subrayado*/
+.parrafo10 {
+  text-decoration: underline;
+}
+/* Agregamos decoracion al texto tachado*/
+.parrafo11 {
+  text-decoration: line-through;
+}
+/* Texto en mayuscula*/
+.parrafo12 {
+  text-transform: uppercase;
+}
+/* Texto en minuscula*/
+.parrafo913 {
+  text-transform: lowercase;
+}
+/* Texto nombre propia*/
+.parrafo14 {
+  text-transform: capitalize;
+}
+/* Agregamos sangria*/
+.parrafo15 {
+  text-indent: 80px;
+}
+/* Agregamos espacio a la letra*/
+.parrafo16 {
+  letter-spacing: 10px;
+}
+/* Agregamos espaciocomprimido a la letra*/
+.parrafo17 {
+  letter-spacing: -2px;
+}
+/* Agregamos espacio entre lineas*/
+.parrafo18 {
+  line-height: 30px;
+}
+/* Agregamos espacio entre palabras*/
+.parrafo19 {
+  word-spacing: 10px;
+}
+/* Agregamos espacio comprimido entre palabras*/
+.parrafo20 {
+  word-spacing: -2px;
+}
+/* Agregamos sombra al parrafo*/
+.parrafo21 {
+  text-shadow: 2px 3px orange;
+}
+/* Agregamos bifuminado*/
+.parrafo22 {
+}

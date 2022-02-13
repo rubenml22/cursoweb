@@ -1,0 +1,97 @@
+* {
+  padding: 10px;
+  color: antiquewhite;
+}
+.contenedor {
+  background-color: black;
+}
+hr {
+  background-color: silver;
+}
+/* generamos un degradadod de arriba hacia abajo */
+.degradado1 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(red, yellow);
+}
+/* generamos un degradado de derecha hacia izquierda */
+.degradado2 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to left, red, yellow);
+}
+/* generamo un degradado de abajo hacia arriba */
+.degradado3 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to top, red, yellow);
+}
+/* generamos un degradado de izquierda hacia derecha */
+.degradado4 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(to right, red, yellow);
+}
+/* generamos un degradado de muchos colores izquierda hacia derecha */
+.degradado5 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(
+    to right,
+    green,
+    yellow,
+    red,
+    blue,
+    white,
+    orange
+  );
+}
+/* generamos un degradado de muchos colores de izquierda hacia derecha */
+.degradado6 {
+  width: 500px;
+  height: 250px;
+  background: repeating-radial-gradient(
+    green,
+    yellow,
+    red,
+    blue,
+    white,
+    orange
+  );
+}
+/* generamos un degradadod de arriba hacia abajo */
+.degradado7 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(180deg, red, yellow);
+}
+/* generamos un degradado de derecha hacia izquierda */
+.degradado8 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(-90deg, red, yellow);
+}
+/* generamos un degradado de izquierda hacia derecha */
+.degradado9 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(90deg, red, yellow);
+}
+/* generamos un degradado de abajo hacia arriba */
+.degradado10 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(0deg, red, yellow);
+}
+/* generamo un degradado radial de dos colores*/
+.degradado11 {
+  width: 500px;
+  height: 250px;
+  background: repeating-radial-gradient(red, yellow);
+}
+/* generamo un degradado hacia un angulo especifico */
+.degradado12 {
+  width: 500px;
+  height: 250px;
+  background: repeating-linear-gradient(70deg, red, yellow);
+}

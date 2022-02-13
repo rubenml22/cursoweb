@@ -1,0 +1,92 @@
+/* Aplicar un color de fondo */
+body {
+  background-color: silver;
+}
+#contenedor {
+  background-color: white;
+}
+
+/* Agregamos una imagen de fondo a un parrafo */
+
+#parrafoimagen {
+  background-image: url("/img/foto1.jpg");
+}
+#parrafotransparencia {
+  background-color: blueviolet;
+  opacity: 75%;
+}
+#parraforepetir {
+  background-image: url("/img/html5ycss3.png");
+}
+#parrafonorepetir {
+  background-image: url("/img/html5ycss3.png");
+  background-repeat: no-repeat;
+}
+#parrafotamaño {
+  background-image: url("/img/html5ycss3.png");
+  size: 30px;
+}
+#parraforepetirhorizontal {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: repeat-x;
+}
+#parraforepetirvertical {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: repeat-y;
+}
+#parrafolineaizquierda {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#parrafolineaderecha {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#parrafolineacentro {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#parrafolineasuperior {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+#parrafolineainterior {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+#parrafolineasuperiorderecha {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+#parrafolineasuperiorizquierda {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+#parrafolineainferiorderecha {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+#parrafolineainferiorizquierda {
+  background-image: url("/img/html5ycss3.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}

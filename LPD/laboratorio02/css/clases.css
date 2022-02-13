@@ -1,0 +1,27 @@
+h1 {
+  color: red;
+}
+hr {
+  height: 15px;
+  background-color: yellow;
+}
+h2 {
+  color: green;
+  font-family: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  color: darkblue;
+  text-align: justify;
+}
+
+.subtitulo1 {
+  color: blueviolet;
+  font-style: italic;
+}
+.parrafo1 {
+  color: darkgreen;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}

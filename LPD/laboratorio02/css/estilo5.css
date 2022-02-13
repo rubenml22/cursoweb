@@ -1,0 +1,103 @@
+body {
+  background-color: darkblue;
+}
+.contenedor {
+  background-color: white;
+}
+
+.borde1 {
+  border-style: dotted;
+}
+.borde2 {
+  border-style: dashed;
+}
+.borde3 {
+  border-style: solid;
+}
+.borde4 {
+  border-style: double;
+}
+.borde5 {
+  border-style: groove;
+}
+.borde6 {
+  border-style: ridge;
+}
+.borde7 {
+  border-style: inset;
+}
+.borde8 {
+  border-style: outset;
+}
+.borde9 {
+  border-style: none;
+}
+.borde10 {
+  border-style: hidden;
+}
+.borde11 {
+  border-style: dashed groove;
+}
+.borde12 {
+  border-style: double dotted solid;
+}
+.borde13 {
+  border-style: dashed solid dotted double;
+}
+.borde12 {
+  border-style: dashed;
+  border-width: 10px;
+}
+.borde13 {
+  border-style: dashed;
+  border-width: thick;
+}
+.borde14 {
+  border-style: double;
+  border-width: medium;
+}
+.borde15 {
+  border-style: solid;
+  border-width: 10px 20px;
+}
+.borde16 {
+  border-style: solid;
+  border-width: 10px 20px 30px;
+}
+.borde17 {
+  border-style: solid;
+  border-width: 10px 20px 30px 40px;
+}
+.borde18 {
+  border-style: solid;
+  border-color: blue;
+}
+.borde19 {
+  border-style: dashed;
+  border-color: blue yellow;
+}
+.borde20 {
+  border-style: double;
+  border-color: blue yellow red;
+}
+.borde21 {
+  border-style: groove;
+  border-color: blue yellow red green;
+}
+.borde22 {
+  border-left-style: dashed;
+}
+.borde23 {
+  border-right-style: solid;
+}
+.borde24 {
+  border-top-style: groove;
+}
+.borde25 {
+  border-bottom-style: double;
+}
+.borde26 {
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 15px;
+}

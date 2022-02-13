@@ -1,0 +1,78 @@
+/* importamos las letras desde google */
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+/* Aplicamos estilos */
+* {
+  padding: 10px;
+}
+body {
+  background-color: orchid;
+}
+hr {
+  background-color: red;
+}
+
+.contenedor {
+  background-color: white;
+}
+.parrafo1 {
+  font-family: "Quintessential", cursive;
+}
+/* Utilizamos la fuente descargdo de google */
+@font-face {
+  font-family: "zenkurenaido";
+  src: url("/fonts/ZenKurenaido-Regular.ttf");
+}
+.parrafo2 {
+  font-family: "zenkurenaido";
+}
+@font-face {
+  font-family: "batmanFA";
+  src: url("/fonts/batmfa__.ttf");
+}
+.parrafo3 {
+  font-family: "batmanFA";
+}
+@font-face {
+  font-family: "batmanFO";
+  src: url("/fonts/batmfo__.ttf");
+}
+.parrafo4 {
+  font-family: "batmanFO";
+}
+@font-face {
+  font-family: "StarWars";
+  src: url("/fonts/StarWars.ttf");
+}
+.parrafo5 {
+  font-family: "StarWars";
+}
+/* Agregamos estilo al parrafo */
+/* curiva */
+.parrafo6 {
+  font-style: italic;
+}
+/* oblicua */
+.parrafo7 {
+  font-style: oblique;
+}
+/* normal */
+.parrafo8 {
+  font-style: normal;
+}
+/* negrita */
+.parrafo9 {
+  font-weight: bold;
+}
+/* negrita gruesa */
+.parrafo10 {
+  font-weight: bolder;
+}
+.parrafo11 {
+  font-variant: small-caps;
+}
+.parrafo12 {
+  font-variant: normal;
+}
+.parrafo13 {
+  font-size: 30px;
+}
