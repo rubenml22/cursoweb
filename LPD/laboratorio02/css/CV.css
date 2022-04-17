@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  font-style: oblique;
+}
+header {
+  background-color: red;
+}
+.contenedor {
+  background-color: beige;
+}
+h1 {
+  color: green;
+  text-align: center;
+  font-size: 45px;
+}
+@font-face {
+  font-family: "batmanFA";
+  src: url("/fonts/batmfa__.ttf");
+}
+h1 {
+  font-family: "batmanFA";
+}
+img {
+  border-radius: 50%;
+  border: 5px solid rgb(255, 0, 0);
+  padding: 3px;
+  width: 200px;
+}
+.borde13 {
+  border-style: dashed;
+  border-color: blue;
+}

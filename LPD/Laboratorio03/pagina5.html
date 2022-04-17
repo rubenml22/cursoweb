@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        //Estructuras logicas
+        //Se clasifican en:
+        //condicionales
+        //selectivas
+        //Repetitivas
+        //condicion - > Evaluacion
+        // 7< 5- > falso
+        // se clasifican en:
+        //simples
+        //dobles
+        //anidadas
+        //Ejemplo 1:Desarrollar una aplicacion que permita ingresar 3 notas y luego mostra el mensaje "aprobado" si el promedio es mayor a 13
+        //Declarando variables
+        var n1=0, n2=0, n3=0, pf=0, condi="0";
+        //Capturando valores
+        n1=parseFloat(prompt("ingresa la nota 1:"));
+        n2=parseFloat(prompt("ingresa la nota 2:"));
+        n3=parseFloat(prompt("ingresa la nota 3:"));
+        //Operaciones
+        pf=(n1+n2+n3)/3;
+        //Condicion
+        if(pf>=13){
+            condi="aprobado";
+        }
+        //Mostramos resultados
+        alert("el promedio es:"+prom);
+        alert(condi);
+        document.write("el promedio es:"+prom+"<br>");
+        document.write(condi+"<br>");
+        
+        //si simple
+         //Ejemplo 2:Desarrollar una aplicacion que permita ingresar 3 notas y luego mostra el mensaje "aprobado" si el promedio es mayor a 13
+        //Declarando variables
+        var n1=0, n2=0, n3=0, pf=0, condi="0";
+        //Capturando valores
+        n1=parseFloat(prompt("ingresa la nota 1:"));
+        n2=parseFloat(prompt("ingresa la nota 2:"));
+        n3=parseFloat(prompt("ingresa la nota 3:"));
+        //Operaciones
+        pf=(n1+n2+n3)/3;
+        //Condicion
+        if(pf>=13){
+            condi="aprobado";
+        }else{
+            condi="desaprobado";
+        }
+        
+        //Mostramos resultados
+        alert("el promedio es:"+prom);
+        alert(condi);
+        document.write("el promedio es:"+prom+"<br>");
+        document.write(condi+"<br>");
+         
+         //Ejemplo 3: Desarrollar una aplicacion que permita clacular el area de un cuadrado. si el area es mayor a 100 debe de mostrar un mensaje indicando "es un cuadrado grande"
+         //Declaramos varaiables
+         var l=0, a=0, men="";
+         //capturamos valores
+         1=parseFloat(prompt("ingresa el lado del cuadrado:"));
+         //Operaciones
+         a=l*l;
+         //Condicion
+         if(a>100){
+             men="es un cuadrado grande";
+         }
+
+         //m0stramos resultados
+         alert("el area del cuadrado es:"+area);
+         alert(men);
+         document("el area del cuadrado es:"+a+"<br>");
+         document.write(men);
+
+         //Ejemplo 4: Desarrollar una aplicacion que permita clacular el area de un cuadrado. si el area es mayor a 100 debe de mostrar un mensaje indicando "es un cuadrado grande" en caso contrario "es un cuadrado pequeño"
+          //Declaramos varaiables
+          var l=0, a=0, men="";
+         //capturamos valores
+         1=parseFloat(prompt("ingresa el lado del cuadrado:"));
+         //Operaciones
+         a=l*l;
+         //Condicion
+         if(a>100){
+             men="es un cuadrado grande";
+         }else{
+             men="es un cuadrado pequeño"
+         }
+
+         //m0stramos resultados
+         alert("el area del cuadrado es:"+area);
+         alert(men);
+         document("el area del cuadrado es:"+a+"<br>");
+         document.write(men);
+
+         //si simple
+         //Ejemplo 5 Desarrolar una plaicacion que perrmita el sueldo final de un trabajdor si se sabe que se ingresa el sueldo basico y ademas si el trabajdor pertenece a la categoria 3 se le calculara una bonificacion de 7% y un descuento de 5% en base a su sueldo basico. Mostrar todos los resultados
+         //Declaramos variables
+         var sb=0, b=0, sf=0, d=0, cat=0;
+         //Capturamos valores
+         sb=parseFloat(prompt("ingresa el sueldo basico:"));
+         cant=parseInt(prompt("ingresa la categoria:"));
+         //condicion
+         if(cant==3){
+             bon=sb*0.07;
+             des=sb*0.05;
+         }
+         
+         //Mostramos resultados
+         alert("el sueldo final es:"+sb);
+         aler("la bonificacion es:"+bon);
+         alert("el descuento es:"+des);
+         alert("el sueldo final es:"+sf);
+         document.write("el sueldo basico es:"+sb+"<br>");
+         document.write("la bonificacion es:"+bon+"<br>");
+         document.write("el descuento es:"+des+"<br>");
+         document.write("el sueldo final es:"+sf+"<br>");
+
+          //Ejemplo 5 Desarrolar una plaicacion que perrmita el sueldo final de un trabajdor si se sabe que se ingresa el sueldo basico y ademas si el trabajdor pertenece a la categoria 3 se le calculara una bonificacion de 7% y un descuento de 5% en base a su sueldo basico. Mostrar todos los resultados
+         //Declaramos variables
+         var sb=0, b=0, sf=0, d=0, cat=0;
+         //Capturamos valores
+         sb=parseFloat(prompt("ingresa el sueldo basico:"));
+         cant=parseInt(prompt("ingresa la categoria:"));
+         //condicion
+         if(cant==3){
+             bon=sb*0.07;
+             des=sb*0.05;
+         }else{
+             bon=sb*0.4;
+             des=sb*0.2;
+         }
+         
+         //Mostramos resultados
+         alert("el sueldo final es:"+sb);
+         aler("la bonificacion es:"+bon);
+         alert("el descuento es:"+des);
+         alert("el sueldo final es:"+sf);
+         document.write("el sueldo basico es:"+sb+"<br>");
+         document.write("la bonificacion es:"+bon+"<br>");
+         document.write("el descuento es:"+des+"<br>");
+         document.write("el sueldo final es:"+sf+"<br>");
+     
+//Condicione anidadas
+//Las condiciones anidadas que permiten evaluar mas de una condicion a la vez
+//sintaxis
+//if(condiciona1){
+
+//..............
+//}else if(condicion2){
+//..............
+//else{
+    //................
+//}
+
+//Ejemplo 7: Desarrollar una aplicacion que permita calcular el sueldo final de un trabajador si se sabe que el sueldo basico se ingresa teclado.adicional a eso se le va calcular una bonificacion y un descuento de acuerdo a siguiente tabla:
+//categoria   bonificacion   decuento
+//A        7%                 5%
+//B        9%                  7%
+//C     9%                     11%
+//Mostrar todos los resultados
+//Declaramos variables
+var sb=0, b=0, sf=0, d=0, cat="";
+//capturamos valores
+sb=parseFloat(prompt("ingrese el sueldo basico:"));
+cant=prompt("ingresa la categoria [a] o [b] o [c]:");
+//condicion
+if(cant=="a"){
+    bon=sb*0.07;
+    des=sb*0.05;
+}
+else if(cant=="b"){
+    bon=sb*0.09;
+    des=sb*0.07;
+}else if(cant=="c"){
+    bon=sb*0.11;
+    des=sb*0.09;
+}else{
+    bon=0;
+    des=0;
+}
+sf=sb+bon-des;
+//Mostramos Resultados
+document.write("el sueldo basico es:"+sbs+"<br>");
+document.write("la bonificacion es:"+bon+"<br>");
+document.write("el descuento es:"+des+"<br>");
+document.write("el sueldo final es:"+sf+"<br>");
+
+
+
+    
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
